@@ -13,7 +13,7 @@ $(document).ready(function(){
                 $.each(data, function (index, people) {
                     var newDiv = $("#classmatecard").last();
                     newDiv.append("<p class='well'><strong>Classmate Name : </strong>" + people.name + "</br>" + "<strong>Summary Statement:</strong> " + people.desc + "</br>" + "<strong>Kudos:</strong>" + people.thanks + "</p>");
-
+                    return false;
                 });
             }
         });
