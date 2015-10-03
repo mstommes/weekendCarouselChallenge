@@ -10,3 +10,13 @@ p {
     padding-bottom: 25px;
     padding-top: 20px;
 }
+.classmatecard {
+    display: none;
+
+}
+
+.active {
+    display: block;
+    margin:auto;
+}
+
